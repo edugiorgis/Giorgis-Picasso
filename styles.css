@@ -27,7 +27,8 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: #C6AD95;
-  font-family: Helvetica;
+  font-family: pacifico;
+  color: floralwhite;
 }
 header {
   padding: 20px auto;
@@ -103,7 +104,7 @@ header {
   }
   p {
     background-color: #E8CCBF;
-      font-family: Helvetica;
+      font-family: Arial, Helvetica, sans-serif;
       font-weight: normal;
     }
 }
@@ -171,10 +172,25 @@ header {
     .firstsectiondetail {
       display: flex;
       flex-direction: row;
-      justify-content:  center;
+      justify-content:  space-around;
     }
     .firstsectiondetail img {
       width: 20%;
       border-radius: 20px;
+    }
+    .secondsection {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .secondsection img {
+      height: 300px;
+      width: 300px;
+    }
+    .secondsection article {
+      width: 900px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
