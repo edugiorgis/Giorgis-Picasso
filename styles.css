@@ -1,6 +1,12 @@
 html {
   background-color: #C6AD95;
 }
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E8CCBF;
+}
 nav {
   display: flex;
   flex-direction: column;
@@ -8,8 +14,6 @@ nav {
   align-items: center;
   margin-bottom: 20px;
   color: black;
-  border: 2px solid black;
-  border-radius: 6px;
   background-color: #C6AD95;
 }
 a {
@@ -43,10 +47,17 @@ header {
   img {
     max-width: 100%;
     object-fit: cover;
-    width: 300px;
+    width: 200px;
     border-radius: 20px;
   }
 
+  .firstsection img {
+    height: 200px;
+  }
+
+  .secondsection img {
+    height: 200px;
+  }
   section {
     display: flex;
     flex-direction: column;
@@ -60,21 +71,42 @@ header {
     gap: 5px;
     padding: 20px auto;
     align-items: center;
-  background-color: #C6AD95;
+    background-color: #C6AD95;
   }
   p {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Helvetica;
   }
   .detailproduct {
+    text-align: center;
     h2 {
       margin-bottom: 10px;
     }
     p {
+      display: flex;
+      align-items: center;
       margin: 0;
     }
   }
+.Weare {
+  display: flex;
+  text-align: center;
+  h1 {
+    margin-bottom: 10px;
+    font-family: Helvetica;
+  }
+  h2 {
+    margin-bottom: 10px;
+    font-family: Helvetica;
+  }
+  p {
+    background-color: #E8CCBF;
+      font-family: Helvetica;
+      font-weight: normal;
+    }
+}
 
   @media (min-width: 768px) {
     header {
@@ -110,14 +142,12 @@ header {
       align-items: center;
     }
     header {
+      padding: 20 px;
       display: flex;
+      justify-content: space-between;
       align-items: center;
       direction: flex;
       flex-direction: row;
-      justify-content: space-evenlycen;
-      padding: 0 200px;
-      gap: 20px;
-      margin-bottom: 20px;
     }
     header nav {
       display: flex;
