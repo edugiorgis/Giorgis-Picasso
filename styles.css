@@ -56,6 +56,7 @@ header {
     object-fit: cover;
     width: 200px;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px #71291e;
   }
 
   .firstsection img {
@@ -117,19 +118,20 @@ header {
       font-weight: normal;
       color: #fdfdfb;
       background-image: url(/Photos/WeAre.jpeg);
-      background-size: cover;
       background-position: center;
       height: 300px;
       border-radius: 10px;
-
+      background-size:cover;
     }
 }
-.Weare p {
-  height: 300px;
-  border-radius: 10px;
-}
 .firstsectiondetail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #71291e;
+}
+.firstsection h1 {
+  margin: 0;
 }
 .firstsectiondetail h2 {
   margin-bottom: 30px;
@@ -138,6 +140,7 @@ header {
   width: 300px;
   height: 300px;
 }
+
   @media (min-width: 768px) {
     header {
       flex-direction: row;
@@ -219,5 +222,5 @@ header {
       display: flex;
       flex-direction: column;
       align-items: center;
-    }   
+    } 
   }
