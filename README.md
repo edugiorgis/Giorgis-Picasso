@@ -10,4 +10,4 @@ Historia de la pagina: Piccaso - Generando Momentos - Empresa de Cordoba dedica 
 Público objetivo: Tengo un e-commerce de venta de vajilla de ceramica y el publico objetivo ronda entre los 25 y 60 años.
 Tipografía Principal: Helvetica (Para titulos) + Verdana (para precios y detalle).
 Paleta de colores: #C6AD95 Para fondo + #81968F Para Letra + #E8CCBF Para fondo de imagenes
-Creación de logo: Logo generado. Ver archivo Logo.jpeg
+Creación de logo: Logo generado Ver archivo Logo.jpeg
